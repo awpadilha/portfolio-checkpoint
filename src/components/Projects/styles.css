@@ -1,0 +1,28 @@
+.content-projects {
+    background-color: rgb(238, 223, 201);
+}
+
+.list-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 300;
+}
+
+.title-project {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.item-list-projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 50px;    
+}
+
+.name-project {
+    font-weight: 300;
+}
