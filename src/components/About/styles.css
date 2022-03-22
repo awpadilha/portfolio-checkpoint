@@ -1,6 +1,6 @@
 main {
-    background-color: antiquewhite;
-    height: calc(100vh - 70px);
+    background-image: url(../../assets/backgroungAbout.jpg);
+    height: 100vh;
 
     display: flex;
     justify-content: center;
@@ -8,3 +8,16 @@ main {
     padding: 0 50px;
 
 }
+
+p {
+    color: white
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+

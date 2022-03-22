@@ -3,7 +3,7 @@ import  {BsLinkedin, BsFillBasketFill} from "react-icons/bs";
 
 export default function Social() {
     return(
-        <div style={{display: "flex", 
+        <div id="social" style={{display: "flex", 
         justifyContent: "center", 
         alignItems: "center",
         padding: 30,

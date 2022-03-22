@@ -19,17 +19,18 @@ export default function Header() {
 
 
     return (
-        <header>
+        <header className>
             <img src={logo} width={60} />
 
             <ul className="menu">
 
-                <li className="item-menu" onClick={()=>scrollToComponent("projects")}>Projetos</li>
+                <li className="item-menu" onClick={()=>scrollToComponent("header")}>Home</li>
                 <li className="item-menu" onClick={()=>scrollToComponent("about")}>About</li>
+                <li className="item-menu" onClick={()=>scrollToComponent("projects")}>Portfolio</li>
+                <li className="item-menu" onClick={()=>scrollToComponent("social")}>Contato</li>
 
                 {/* <li className="item-menu" onClick={scrollToProject}>Projetos</li>
                 <li className="item-menu" onClick={scrollToAbout}>About</li> */}
-                <li className="item-menu">Sobre</li>
             </ul>
         </header>
     )
