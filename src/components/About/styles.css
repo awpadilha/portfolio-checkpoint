@@ -1,22 +1,40 @@
 main {
     background-image: url(../../assets/backgroungAbout.jpg);
-    height: 100vh;
+    height: calc(97vh - 70px);
 
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 50px;
+    color: black;
+    flex-direction: row;
+    
 
 }
 
-p {
-    color: white
+
+.background-texto {
+  background-color: rgba(141, 155, 170, 0.37); 
+  
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
+    
+    
 }
+
+h1 {
+    font-size: 80px;
+}
+
+p {
+    font-size:25px;
+}
+
+
+
 
 
 

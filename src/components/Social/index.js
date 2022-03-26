@@ -1,20 +1,22 @@
-import  {FiInstagram} from "react-icons/fi";
-import  {BsLinkedin, BsFillBasketFill} from "react-icons/bs";
+import  {FaInstagram, FaGithub,FaLinkedin} from "react-icons/fa";
+
 
 export default function Social() {
     return(
-        <div id="social" style={{display: "flex", 
-        justifyContent: "center", 
-        alignItems: "center",
-        padding: 30,
-        }}
-        >
-            <a href="http://www.instagram.com.br">
-            <FiInstagram size={60} color="purple"/>
+        <div className="content-social" id="social" >
+
+            <a href="https://www.instagram.com/awpadilha/">
+            <FaInstagram size={80} />
             </a>
             
-            <BsLinkedin size={60} color="blue"/>
-            <BsFillBasketFill size={60} />
+            <a href="https://www.linkedin.com/in/awpadilha/">
+            <FaLinkedin size={80} />
+            </a>
+
+            <a href="https://github.com/awpadilha">
+            <FaGithub size={80} />
+            </a>
         </div>
     )
 }
+

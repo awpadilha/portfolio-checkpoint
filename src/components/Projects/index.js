@@ -3,38 +3,38 @@ import "./styles.css"
 const data = [
   {
     id: "1",
-    name: "Lorem Ipsum",
-    link: "https://github.com/brunowbbs/Frontend-III",
+    name: "Checkpoint Front-end I",
+    link: "https://github.com/awpadilha/checkpoint-I-front-end",
     image:
-      "https://howedu.com.br/wp-content/uploads/2021/05/Captura-de-Tela-2021-05-06-a%CC%80s-10.21.22-1024x603.png",
+      "https://i.postimg.cc/FFfzN7MG/id1.png",
   },
   {
     id: "2",
-    name: "Lorem Ipsum",
-    link: "https://github.com/brunowbbs/Frontend-III",
+    name: "Rocketseat",
+    link: "https://github.com/awpadilha/projetos-rocketseat",
     image:
-      "https://howedu.com.br/wp-content/uploads/2021/05/Captura-de-Tela-2021-05-06-a%CC%80s-10.21.22-1024x603.png",
+      "https://i.postimg.cc/X7SjWxc7/id2.jpg",
   },
   {
     id: "3",
-    name: "Lorem Ipsum",
-    link: "https://github.com/brunowbbs/Frontend-III",
+    name: "Robot Framework",
+    link: "https://github.com/awpadilha/teste-robot-framework",
     image:
-      "https://howedu.com.br/wp-content/uploads/2021/05/Captura-de-Tela-2021-05-06-a%CC%80s-10.21.22-1024x603.png",
+      "https://i.postimg.cc/1XMJvvyc/id3.png",
   },
   {
     id: "4",
-    name: "Lorem Ipsum",
-    link: "https://github.com/brunowbbs/Frontend-III",
+    name: "Full Stack Javascript",
+    link: "https://github.com/awpadilha/projetos-fullstackjavascript",
     image:
-      "https://howedu.com.br/wp-content/uploads/2021/05/Captura-de-Tela-2021-05-06-a%CC%80s-10.21.22-1024x603.png",
+      "https://i.postimg.cc/HsTyHQg5/id4.jpg",
   },
   {
     id: "5",
-    name: "Lorem Ipsum",
-    link: "https://github.com/brunowbbs/Frontend-III",
+    name: "Web Moderno",
+    link: "https://github.com/awpadilha/curso-web-moderno",
     image:
-      "https://howedu.com.br/wp-content/uploads/2021/05/Captura-de-Tela-2021-05-06-a%CC%80s-10.21.22-1024x603.png",
+      "https://i.postimg.cc/tgdbXVyZ/id5.jpg",
   },
 ];
 
