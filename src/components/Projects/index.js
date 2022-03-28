@@ -1,40 +1,43 @@
 import "./styles.css"
+import id1 from '../../assets/id1.png';
+import id2 from '../../assets/id2.jpg';
+import id3 from '../../assets/id3.png';
+import id4 from '../../assets/id4.jpg';
+import id5 from '../../assets/id5.jpg';
+
+
+
 
 const data = [
   {
     id: "1",
     name: "Checkpoint Front-end I",
     link: "https://github.com/awpadilha/checkpoint-I-front-end",
-    image:
-      "https://i.postimg.cc/FFfzN7MG/id1.png",
+    image: id1
   },
   {
     id: "2",
     name: "Rocketseat",
     link: "https://github.com/awpadilha/projetos-rocketseat",
-    image:
-      "https://i.postimg.cc/X7SjWxc7/id2.jpg",
+    image: id2
   },
   {
     id: "3",
     name: "Robot Framework",
     link: "https://github.com/awpadilha/teste-robot-framework",
-    image:
-      "https://i.postimg.cc/1XMJvvyc/id3.png",
+    image: id3
   },
   {
     id: "4",
     name: "Full Stack Javascript",
     link: "https://github.com/awpadilha/projetos-fullstackjavascript",
-    image:
-      "https://i.postimg.cc/HsTyHQg5/id4.jpg",
+    image: id4
   },
   {
     id: "5",
     name: "Web Moderno",
     link: "https://github.com/awpadilha/curso-web-moderno",
-    image:
-      "https://i.postimg.cc/tgdbXVyZ/id5.jpg",
+    image: id5
   },
 ];
 

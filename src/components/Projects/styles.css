@@ -1,6 +1,7 @@
 .content-projects {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(138, 138, 138);
     height: 100vh;
+    
 }
 
 .list-projects {
@@ -14,9 +15,9 @@
     text-align: center;
     margin-bottom: 100px;
     font-weight: 300;
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: 800;
-    font-size: 50px;
+    font-size: 80px;
     padding: 50px 0;
 }
 
@@ -31,5 +32,6 @@
 .name-project {
     font-weight: 500;
     font-size: 25px;
+    color: rgb(0, 0, 0);
 }
 
