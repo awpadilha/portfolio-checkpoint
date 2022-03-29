@@ -9,7 +9,7 @@ export default function About() {
                 <h1> >_ Olá, eu sou o André Padilha</h1>
                 <p>Sou engenheiro eletricista especializado em dispositivos médicos.</p>
                 <p>Atualmente sou estudante do Certified Tech Developer pela Digital House.</p>
-                <p>Cursando a carreira de desenvolvedor full-stack visando especialização em frontend.</p>
+                <p>Cursando a carreira de desenvolvedor Full-Stack visando a especialização em Front-End.</p>
                 <p>Obrigado por sua visita!</p>
             </div>
             <div className="img">
