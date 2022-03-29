@@ -2,9 +2,14 @@
 .content-social {
     background-color: rgb(255, 255, 255);
     height: 100%;
-    width: 50px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-   
+    padding: 20px;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
 }

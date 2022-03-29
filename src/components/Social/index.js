@@ -5,19 +5,19 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Social() {
     return (
-        <>
+        <div>
             <div className="content-social" id="social" >
 
-                <a href="https://www.linkedin.com/in/awpadilha/" target="_blank">
-                    <FaLinkedin size={50} />
+                <a href="https://www.linkedin.com/in/awpadilha/" target="_blank" rel="noreferrer">
+                    <FaLinkedin size={80} />
                 </a>
 
-                <a href="https://github.com/awpadilha" target="_blank">
-                    <FaGithub size={50} />
+                <a href="https://github.com/awpadilha" target="_blank" rel="noreferrer" >
+                    <FaGithub size={80} />
                 </a>
 
-                <a href="mailto:awpadilha.dev@gmail.com" target="_blank">
-                    <SiGmail size={50} />
+                <a href="mailto:awpadilha.dev@gmail.com" target="_blank" rel="noreferrer">
+                    <SiGmail size={80} />
                 </a>
 
             </div>
@@ -25,8 +25,7 @@ export default function Social() {
             <div className="footer">
                 <p> awpadilha.dev - Todos os direitos reservados</p>
             </div>
-
-        </>
+        </div>
 
     )
 }

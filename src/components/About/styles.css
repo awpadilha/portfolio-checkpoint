@@ -1,15 +1,14 @@
 main {
     background-image: url(../../assets/backgroungAbout.jpg);
     height: calc(97vh - 70px);
-
+    background: cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0 50px;
     color: rgb(255, 255, 255);
     flex-direction: row;
-    
-
+    background-size: cover;
 }
 
 
@@ -18,13 +17,11 @@ main {
   
 } */
 
-img {
+/* perfil {
     width: 250px;
     height: 250px;
     border-radius: 10px;
-    
-    
-}
+} */
 
 h1 {
     font-size: 80px;

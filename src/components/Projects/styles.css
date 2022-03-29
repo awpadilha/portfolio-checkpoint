@@ -1,7 +1,7 @@
 .content-projects {
-    background-color: rgb(138, 138, 138);
-    height: 100vh;
-    
+    background-color: rgb(169, 169, 169);
+    min-height: 80vh;
+    height: auto;
 }
 
 .list-projects {
@@ -26,12 +26,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px 50px;    
+    margin: 30px 50px;   
+    
 }
 
 .name-project {
     font-weight: 500;
     font-size: 25px;
     color: rgb(0, 0, 0);
+}
+
+img {
+    border-radius: 50px; 
 }
 
